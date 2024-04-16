@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/mlflow/mlruns/0/fa842302491e4baea9e1aa21de600a7d/artifacts
+end_time: 1713248273998
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa842302491e4baea9e1aa21de600a7d
+run_name: abrasive-mole-218
+run_uuid: fa842302491e4baea9e1aa21de600a7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713248266906
+status: 3
+tags: []
+user_id: Mayank

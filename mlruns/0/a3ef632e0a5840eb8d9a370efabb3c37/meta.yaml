@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/mlflow/mlruns/0/a3ef632e0a5840eb8d9a370efabb3c37/artifacts
+end_time: 1713248513442
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3ef632e0a5840eb8d9a370efabb3c37
+run_name: omniscient-lamb-814
+run_uuid: a3ef632e0a5840eb8d9a370efabb3c37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713248507153
+status: 3
+tags: []
+user_id: Mayank
