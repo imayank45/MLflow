@@ -46,10 +46,12 @@ aws configure
 
 
 #Finally 
-mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-test-23
+mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-buc-24
 
 #open Public IPv4 DNS to the port 5000
 
 
 #set uri in your local terminal and in your code 
-export MLFLOW_TRACKING_URI=http://ec2-54-147-36-34.compute-1.amazonaws.com:5000/
+export MLFLOW_TRACKING_URI=http://ec2-3-26-74-12.ap-southeast-2.compute.amazonaws.com:5000/
+
+http://ec2-3-26-74-12.ap-southeast-2.compute.amazonaws.com:5000/
