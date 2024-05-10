@@ -1,21 +1,24 @@
-# MLflow
-
-MLFLOW_TRACKING_URI=https://dagshub.com/imayank45/MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=imayank45 \
-MLFLOW_TRACKING_PASSWORD=1c5f5a5f1b0794cf87c81cd9db7f8e88402a0efa \
+MLflow-Basic-Demo
+For Dagshub:
+MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/MLflow-Basic-Demo.mlflow
+MLFLOW_TRACKING_USERNAME=entbappy
+MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 python script.py
 
+export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/MLflow-Basic-Demo.mlflow
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/imayank45/MLflow.mlflow
+export MLFLOW_TRACKING_USERNAME=******** 
 
-export MLFLOW_TRACKING_USERNAME=imayank45 
+export MLFLOW_TRACKING_PASSWORD=********
 
-export MLFLOW_TRACKING_PASSWORD=1c5f5a5f1b0794cf87c81cd9db7f8e88402a0efa
-
-
-
-
---------------------------------------------------------------------------------
+MLflow on AWS
+MLflow on AWS Setup:
+Login to AWS console.
+Create IAM user with AdministratorAccess
+Export the credentials in your AWS CLI by running "aws configure"
+Create a s3 bucket
+Create EC2 machine (Ubuntu) & add Security groups 5000 port
+Run the following command on EC2 machine
 
 sudo apt update
 
@@ -43,7 +46,7 @@ aws configure
 
 
 #Finally 
-mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-buck-24
+mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-test-23
 
 #open Public IPv4 DNS to the port 5000
 
